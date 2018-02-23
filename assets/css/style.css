@@ -1,0 +1,166 @@
+body {
+    margin-left: 10px;
+    background-image: url("../images/rocks.jpeg");
+    background-size: 100%;
+}
+
+.title {
+    background: orange;
+    color: white;
+    width: 420px;
+    padding: 15px 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.explain {
+    padding: 10px 0px;
+    width: 420px;
+    background: bisque;
+    color: green;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.explain p {
+    margin: 15px;
+}
+
+.win-line {
+    font-weight: bold;
+}
+
+.container {
+    margin: 0px;
+}
+
+/* goal */
+#goal-title {
+    height: 30px;
+    background: green;
+    width: 205px;
+    margin-top: 10px;
+}
+
+#random-number {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+#goal-card {
+    background: green;
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 99px;
+    width: 205px;
+}
+
+#goal-number {
+    margin-top: 10px;
+    font-size: 47px;
+    text-align: center;
+    color: white;
+}
+
+/* record */
+.win-lose {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+}
+
+#record-title {
+    width: 205px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    background: lightskyblue;
+}
+
+#record-card {
+    background: lightskyblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 99px;
+    width: 205px;
+    padding-top: 10px;
+}
+
+#record-card p {
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 18px;
+    color: white;
+}
+
+/* crystals */
+.crystal {
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+#green {
+    height: 90px;
+}
+
+/* score */
+.your-score {
+    background: teal;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.score-card {
+    background: teal;
+    width: 420px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+#score {
+    margin: 10px 0px 0px 15px;
+    padding-top: 24px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #goal-title {
+        float: left;
+    }
+
+    #goal {
+        float: left;
+    }
+
+    #record-title {
+        float: left;
+    }
+
+    #record-card {
+        position: relative;
+        bottom: 109px;
+        left: 204px;
+    }
+
+    #buttons-row {
+        margin-top: -108px;
+    }
+
+};
