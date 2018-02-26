@@ -67,7 +67,7 @@ body {
 
 /* record */
 .win-lose {
-    color: white;
+    color: green;
     font-size: 18px;
     text-align: center;
     margin: 5px;
@@ -163,4 +163,11 @@ body {
         margin-top: -108px;
     }
 
+};
+
+@media screen and (max-width: 420px) {
+
+    .crystal {
+        width: 60px;
+    }
 };
