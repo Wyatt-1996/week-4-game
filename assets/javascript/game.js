@@ -94,10 +94,10 @@ $(document).ready(function () {
                 console.log(score);
             }
 
-            matchNumbers(score);
-
             // remove win or loss text
             $('.win-lose').text(winOrLoss);
+
+            matchNumbers(score);
 
         });
 
